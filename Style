@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+section {
+    position: fixed;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 15px;
+    align-items: left;
+    background: url(file:///C:/Users/makhi/OneDrive/Desktop/539/r2.html)no-repeat;
+    background-image: linear-gradient(rgb(162, 223, 244),rgb(251, 226, 179),rgb(196, 247, 196),rgb(243, 165, 243),rgb(237, 203, 208));
+    background-size: contain;
+    background-position: center;
+}
+.content {
+    background-image: linear-gradient(rgb(162, 223, 244),rgb(251, 226, 179),rgb(196, 247, 196),rgb(243, 165, 243),rgb(237, 203, 208));
+}
+.hide-bg {
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+    width: 580px;
+    height: 550px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 2px;
+    position: absolute;
+    right: -23px;
+    bottom: 30px;
+    
+}  
+.logo {
+    max-width: 60px;
+    position: relative;
+}
+.hide-bg1 {
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+    position: absolute;
+    left: -15px;
+    top: 10px;
+}
+header {
+    position: relative;
+    top: 0px;
+    left: 20px;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ header .navigation a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+    transition-property: background;
+ }
+ header .navigation a:not(:last-child) {
+    margin-right: 40px;
+ }
+ header .navigation a:hover {
+    background: #fff;
+ }
+ .content1 {
+    max-width: 650px;
+    margin: 80px 80px;
+ }
+ .content1 .info h2 {
+    color: #226A80;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 3opx;
+ }
+ .content .info h2 span {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+ }
+ .content .info p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.content .info-btn {
+    color: #fff;
+    background: #226A80;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    transition-property: background;
+}
+.content .info-btn:hover {
+    background: #0C4F60;
+}
+.media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.media-icons a {
+    position: relative;
+    color: #111;
+    font-size: 25px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+.media-icons a:not(:last-child) {
+    margin-right: 60px;
+ }
+.media-icons a:hover {
+    transform: scale(1.5);
+}
