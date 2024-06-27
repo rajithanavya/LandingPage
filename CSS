@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Landing page</title>
+        <link rel="stylesheet" href="C:\Users\makhi\OneDrive\Desktop\539\style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
+    <body>
+        <div class="content">
+        <section>
+            <header>
+                <a href="#" ><img class="hide-bg1" src="http://cliparts.co/cliparts/Bcg/E88/BcgE8859i.jpg" style="width: 110px; height: 110px;" class="logo"></a>
+                <div class="navigation">
+                    <br><a href="#"><b>Home</b></a>
+                    <a href="#"><b>About</b></a>
+                    <a href="#"><b>Info</b></a>
+                    <a href="#"><b>Services</b></a>
+                    <a href="#"><b>Contact</b></a>
+                </div>
+            </header>
+            <div class="content1">
+                <div class="info"><br>
+                    <h2>Think Green<br><span></span>Keep it clean!</span></h2><br>
+                    <p>The health of people and other living beings depends on a healthy environment. Clean air and water are essential for human health, while plants need clean soil to grow healthy. Keeping our surroundings clean can help protect our health and the environment. There is a famous saying, “Cleanliness is Godliness”, and we must follow some basic hygiene steps to maintain the same.</p>
+                    <a href="#" class="info-btn">More Info</a>
+                </div>
+            </div>
+            <div>
+                <img src="C:\Users\makhi\Downloads\recycling.jpeg" class="hide-bg"><br>
+        
+            <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a><br><br>
+            </div>
+            </div>
+        </div>
+        </section>
+    </body>
+</html>
